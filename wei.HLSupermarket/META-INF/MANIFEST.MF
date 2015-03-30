@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HLSupermarket
+Bundle-SymbolicName: wei.HLSupermarket; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cn.com.wei.core.Activator
+Bundle-Vendor: wei
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: src/mysql-connector-java-5.0.8-bin.jar,
+ .
